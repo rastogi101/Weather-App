@@ -61,7 +61,7 @@ function showSearchedCity(response) {
       temperatureNumber.style.backgroundColor = `#4EBCF1`;
       cityColor.style.color = `#8BD8F9`;
       cityColor.style[`boxShadow`] = `18px -12px 0px #8BD8F9`;
-      descriptionText.style.backgroundColor = `#CEF2FF`;
+      descriptionText.style.backgroundColor = `#CEF2FF`; 
       descriptionWeather.style.color = `#42A5EF`;
       // Rain, Thunderstorm and Snow
     } else if (colorDescription === `Rain`) {
